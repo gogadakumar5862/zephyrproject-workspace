@@ -1,0 +1,34 @@
+empty_file.o: \
+ /var/lib/jenkins/workspace/zephyrproject-workspace/zephyr/misc/empty_file.c \
+ /var/lib/jenkins/workspace/zephyrproject-workspace/zephyr/boards/raspberrypi/rpi_pico2/rpi_pico2_rp2350a_m33.dts \
+ /var/lib/jenkins/workspace/zephyrproject-workspace/zephyr/dts/arm/raspberrypi/rpi_pico/rp2350a.dtsi \
+ /var/lib/jenkins/workspace/zephyrproject-workspace/zephyr/dts/arm/raspberrypi/rpi_pico/rp2350.dtsi \
+ /var/lib/jenkins/workspace/zephyrproject-workspace/zephyr/include/zephyr/dt-bindings/adc/adc.h \
+ /var/lib/jenkins/workspace/zephyrproject-workspace/zephyr/include/zephyr/dt-bindings/dt-util.h \
+ /var/lib/jenkins/workspace/zephyrproject-workspace/zephyr/include/zephyr/sys/util_macro.h \
+ /var/lib/jenkins/workspace/zephyrproject-workspace/zephyr/include/zephyr/sys/util_internal.h \
+ /var/lib/jenkins/workspace/zephyrproject-workspace/zephyr/include/zephyr/sys/util_loops.h \
+ /var/lib/jenkins/workspace/zephyrproject-workspace/zephyr/include/zephyr/sys/util_listify.h \
+ /var/lib/jenkins/workspace/zephyrproject-workspace/zephyr/include/zephyr/sys/util_internal_is_eq.h \
+ /var/lib/jenkins/workspace/zephyrproject-workspace/zephyr/include/zephyr/sys/util_internal_util_inc.h \
+ /var/lib/jenkins/workspace/zephyrproject-workspace/zephyr/include/zephyr/sys/util_internal_util_dec.h \
+ /var/lib/jenkins/workspace/zephyrproject-workspace/zephyr/include/zephyr/sys/util_internal_util_x2.h \
+ /var/lib/jenkins/workspace/zephyrproject-workspace/zephyr/include/zephyr/dt-bindings/gpio/gpio.h \
+ /var/lib/jenkins/workspace/zephyrproject-workspace/zephyr/include/zephyr/dt-bindings/clock/rpi_pico_rp2350_clock.h \
+ /var/lib/jenkins/workspace/zephyrproject-workspace/zephyr/include/zephyr/dt-bindings/clock/rpi_pico_clock_common.h \
+ /var/lib/jenkins/workspace/zephyrproject-workspace/zephyr/include/zephyr/dt-bindings/i2c/i2c.h \
+ /var/lib/jenkins/workspace/zephyrproject-workspace/zephyr/include/zephyr/dt-bindings/regulator/rpi_pico.h \
+ /var/lib/jenkins/workspace/zephyrproject-workspace/zephyr/include/zephyr/dt-bindings/reset/rp2350_reset.h \
+ /var/lib/jenkins/workspace/zephyrproject-workspace/zephyr/dts/common/mem.h \
+ /var/lib/jenkins/workspace/zephyrproject-workspace/zephyr/dts/arm/raspberrypi/rpi_pico/m33.dtsi \
+ /var/lib/jenkins/workspace/zephyrproject-workspace/zephyr/dts/arm/armv8-m.dtsi \
+ /var/lib/jenkins/workspace/zephyrproject-workspace/zephyr/dts/common/skeleton.dtsi \
+ /var/lib/jenkins/workspace/zephyrproject-workspace/zephyr/boards/raspberrypi/rpi_pico2/rpi_pico2.dtsi \
+ /var/lib/jenkins/workspace/zephyrproject-workspace/zephyr/dts/common/freq.h \
+ /var/lib/jenkins/workspace/zephyrproject-workspace/zephyr/include/zephyr/dt-bindings/pwm/pwm.h \
+ /var/lib/jenkins/workspace/zephyrproject-workspace/zephyr/boards/raspberrypi/rpi_pico2/rpi_pico2-pinctrl.dtsi \
+ /var/lib/jenkins/workspace/zephyrproject-workspace/zephyr/include/zephyr/dt-bindings/pinctrl/rpi-pico-rp2350a-pinctrl.h \
+ /var/lib/jenkins/workspace/zephyrproject-workspace/zephyr/include/zephyr/dt-bindings/pinctrl/rpi-pico-rp2350-pinctrl-common.h \
+ /var/lib/jenkins/workspace/zephyrproject-workspace/zephyr/include/zephyr/dt-bindings/pinctrl/rpi-pico-pinctrl-common.h \
+ /var/lib/jenkins/workspace/zephyrproject-workspace/zephyr/boards/raspberrypi/rpi_pico2/../common/rpi_pico-pinctrl-common.dtsi \
+ /var/lib/jenkins/workspace/zephyrproject-workspace/zephyr/boards/raspberrypi/rpi_pico2/../common/rpi_pico-led.dtsi

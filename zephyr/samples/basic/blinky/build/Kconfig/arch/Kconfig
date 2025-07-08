@@ -1,0 +1,11 @@
+# Load Zephyr Arch Kconfig descriptions.
+osource "/var/lib/jenkins/workspace/zephyrproject-workspace/zephyr/arch/rx/Kconfig"
+osource "/var/lib/jenkins/workspace/zephyrproject-workspace/zephyr/arch/x86/Kconfig"
+osource "/var/lib/jenkins/workspace/zephyrproject-workspace/zephyr/arch/xtensa/Kconfig"
+osource "/var/lib/jenkins/workspace/zephyrproject-workspace/zephyr/arch/sparc/Kconfig"
+osource "/var/lib/jenkins/workspace/zephyrproject-workspace/zephyr/arch/riscv/Kconfig"
+osource "/var/lib/jenkins/workspace/zephyrproject-workspace/zephyr/arch/posix/Kconfig"
+osource "/var/lib/jenkins/workspace/zephyrproject-workspace/zephyr/arch/mips/Kconfig"
+osource "/var/lib/jenkins/workspace/zephyrproject-workspace/zephyr/arch/arm64/Kconfig"
+osource "/var/lib/jenkins/workspace/zephyrproject-workspace/zephyr/arch/arm/Kconfig"
+osource "/var/lib/jenkins/workspace/zephyrproject-workspace/zephyr/arch/arc/Kconfig"
