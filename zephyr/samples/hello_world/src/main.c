@@ -8,7 +8,7 @@
 
 int main(void)
 {
-	printf("Hello Jenkins World! %s\n", CONFIG_BOARD_TARGET);
+	printf("Hello JenkinS World! %s\n", CONFIG_BOARD_TARGET);
 
 	return 0;
 }
