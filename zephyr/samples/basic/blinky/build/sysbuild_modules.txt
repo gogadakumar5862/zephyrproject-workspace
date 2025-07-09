@@ -1,0 +1,1 @@
+"mcuboot":"/var/lib/jenkins/workspace/zephyrproject-workspace/bootloader/mcuboot":"/var/lib/jenkins/workspace/zephyrproject-workspace/bootloader/mcuboot/boot/zephyr/sysbuild"

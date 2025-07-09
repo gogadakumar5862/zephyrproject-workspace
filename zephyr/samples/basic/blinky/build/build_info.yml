@@ -1,0 +1,4 @@
+west:
+  command: /home/raiton/.local/bin/west build -b rpi_pico2/rp2350a/m33 -p always
+  topdir: /var/lib/jenkins/workspace/zephyrproject-workspace
+  version: 1.4.0
