@@ -1,0 +1,58 @@
+cmake:
+  application:
+    configuration-dir: '/var/lib/jenkins/workspace/zephyrproject-workspace/zephyr/samples/basic/button'
+    source-dir: '/var/lib/jenkins/workspace/zephyrproject-workspace/zephyr/samples/basic/button'
+  board:
+    name: 'nucleo_g474re'
+    path:
+     - '/var/lib/jenkins/workspace/zephyrproject-workspace/zephyr/boards/st/nucleo_g474re'
+    qualifiers: 'stm32g474xx'
+    revision: ''
+  devicetree:
+    bindings-dirs:
+     - '/var/lib/jenkins/workspace/zephyrproject-workspace/zephyr/dts/bindings'
+    files:
+     - '/var/lib/jenkins/workspace/zephyrproject-workspace/zephyr/boards/st/nucleo_g474re/nucleo_g474re.dts'
+    include-dirs:
+     - '/var/lib/jenkins/workspace/zephyrproject-workspace/modules/hal/ambiq/dts'
+     - '/var/lib/jenkins/workspace/zephyrproject-workspace/modules/hal/atmel/include'
+     - '/var/lib/jenkins/workspace/zephyrproject-workspace/modules/hal/bouffalolab/include'
+     - '/var/lib/jenkins/workspace/zephyrproject-workspace/modules/hal/bouffalolab/include/zephyr'
+     - '/var/lib/jenkins/workspace/zephyrproject-workspace/modules/hal/gigadevice/include'
+     - '/var/lib/jenkins/workspace/zephyrproject-workspace/modules/hal/microchip/include'
+     - '/var/lib/jenkins/workspace/zephyrproject-workspace/modules/hal/microchip/dts'
+     - '/var/lib/jenkins/workspace/zephyrproject-workspace/modules/hal/nuvoton/dts'
+     - '/var/lib/jenkins/workspace/zephyrproject-workspace/modules/hal/nxp/dts'
+     - '/var/lib/jenkins/workspace/zephyrproject-workspace/modules/hal/stm32/dts'
+     - '/var/lib/jenkins/workspace/zephyrproject-workspace/modules/hal/ti/dts'
+     - '/var/lib/jenkins/workspace/zephyrproject-workspace/zephyr/include'
+     - '/var/lib/jenkins/workspace/zephyrproject-workspace/zephyr/include/zephyr'
+     - '/var/lib/jenkins/workspace/zephyrproject-workspace/zephyr/dts/common'
+     - '/var/lib/jenkins/workspace/zephyrproject-workspace/zephyr/dts/vendor'
+     - '/var/lib/jenkins/workspace/zephyrproject-workspace/zephyr/dts/rx'
+     - '/var/lib/jenkins/workspace/zephyrproject-workspace/zephyr/dts/x86'
+     - '/var/lib/jenkins/workspace/zephyrproject-workspace/zephyr/dts/xtensa'
+     - '/var/lib/jenkins/workspace/zephyrproject-workspace/zephyr/dts/sparc'
+     - '/var/lib/jenkins/workspace/zephyrproject-workspace/zephyr/dts/riscv'
+     - '/var/lib/jenkins/workspace/zephyrproject-workspace/zephyr/dts/posix'
+     - '/var/lib/jenkins/workspace/zephyrproject-workspace/zephyr/dts/arm64'
+     - '/var/lib/jenkins/workspace/zephyrproject-workspace/zephyr/dts/arm'
+     - '/var/lib/jenkins/workspace/zephyrproject-workspace/zephyr/dts/arc'
+     - '/var/lib/jenkins/workspace/zephyrproject-workspace/zephyr/dts'
+  kconfig:
+    files:
+     - '/var/lib/jenkins/workspace/zephyrproject-workspace/zephyr/boards/st/nucleo_g474re/nucleo_g474re_defconfig'
+     - '/var/lib/jenkins/workspace/zephyrproject-workspace/zephyr/samples/basic/button/prj.conf'
+    user-files:
+     - '/var/lib/jenkins/workspace/zephyrproject-workspace/zephyr/samples/basic/button/prj.conf'
+  toolchain:
+    name: 'zephyr'
+    path: '/home/raiton/zephyr-sdk-0.17.1'
+  zephyr:
+    version: '4.2.0-rc1'
+    zephyr-base: '/var/lib/jenkins/workspace/zephyrproject-workspace/zephyr'
+version: '0.1.0'
+west:
+  command: '/var/lib/jenkins/.local/bin/west build -b nucleo_g474re -p always'
+  topdir: '/var/lib/jenkins/workspace/zephyrproject-workspace'
+  version: '1.4.0'

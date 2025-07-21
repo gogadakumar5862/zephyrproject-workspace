@@ -1,0 +1,7 @@
+- id: my_board
+  platform: nucleo_g474re
+  product: "STM32 Nucleo-G474RE"
+  serial: /dev/ttyACM0
+  runner: openocd
+  connected: true
+  

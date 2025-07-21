@@ -1,0 +1,2 @@
+# Load Zephyr board Kconfig descriptions.
+osource "/var/lib/jenkins/workspace/zephyrproject-workspace/zephyr/boards/st/nucleo_g474re/Kconfig"

@@ -1,0 +1,4 @@
+west:
+  command: /var/lib/jenkins/.local/bin/west build -b nucleo_g474re -p always
+  topdir: /var/lib/jenkins/workspace/zephyrproject-workspace
+  version: 1.4.0
